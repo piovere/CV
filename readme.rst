@@ -1,17 +1,14 @@
 
 ________________________________________________________________
-Curriculum Vitae : Kathryn D. Huff
+Curriculum Vitae : Rachel N. Slaybaugh
 ________________________________________________________________
 
-This repository contains my curriculum vitae source files. 
+This repository contains my curriculum vitae source files and pdfs
+of two versions: long and summary. 
 
-A current pdf can usually be found on my website : 
+In order to build my cv from the source, try pdflatex. You'll need the
+accompanying resume2.cls files.
 
-homepages.cae.wisc.edu~/khuff/papers/cv.pdf
-
-In order to build my cv from the source, try latex or pdflatex.
-
-
-Thanks for your interest. 
-Also, thanks to the individuals responsible for the resume.cls file utilized 
-here and to Ted Pavlic whose bibenum code I borrowed from the interwebs.
+Thanks for your interest.
+Thanks also to Katy Huff from whose repo I forked and Trey Hunner, so
+provided materials I adapted as well.
