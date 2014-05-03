@@ -9,5 +9,5 @@ In order to build my cv from the source, try pdflatex. You'll need the
 accompanying resume2.cls file.
 
 Thanks for your interest.
-Thanks also to Katy Huff from whose repo I forked and Trey Hunner, so
+Thanks also to Katy Huff, from whose repo I forked, and  toTrey Hunner, who
 provided materials I adapted as well.
