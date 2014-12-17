@@ -23,6 +23,7 @@
 \documentclass{resume2} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 
 \name{Rachel N. Slaybaugh} % Your name
 \address{Department of Nuclear Engineering \\ University of California, Berkeley} % Your address
@@ -74,7 +75,7 @@ B.S. \hspace*{2 em}\> \textbf{Pennsylvania State University} \> \> 2006 \\
 %----------------------------------------------------------------------------------------
 %	HONORS AND AWARDS
 %----------------------------------------------------------------------------------------
-\vspace*{1em}
+\clearpage
 \begin{rSection}{Honors And Awards}
 \input{honors-and-awards}
 \end{rSection}
@@ -82,11 +83,10 @@ B.S. \hspace*{2 em}\> \textbf{Pennsylvania State University} \> \> 2006 \\
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
-\clearpage
 \begin{rSection}{Computer Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & C++, Fortran 90/95/2003, Python, MATLAB \\
+Languages & C++, Python, Fortran 90/95/2003 \\
 Version Control & git, svn, cvs \\
 Test Frameworks & CTest, GoogleTest, nose \\
 Tools & Doxygen, \LaTeX, MathCAD, Mathematica, MCNP, the shell, Vim, tcsh, bash, \\&Emacs, Trilinos, LAPACK, MPI, Valgrind
