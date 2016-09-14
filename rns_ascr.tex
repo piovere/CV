@@ -1,0 +1,185 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume3} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+
+\name{Rachel N. Slaybaugh} % Your name
+\address{Department of Nuclear Engineering \\ University of California, Berkeley} % Your address
+\address{4173 Etcheverry Hall MC 1730 \\ Berkeley, CA 94720} % Your secondary addess (optional)
+\address{\href{slaybaugh@berkeley.edu}{slaybaugh@berkeley.edu} \\ (570)~$\cdot$~850~$\cdot$~3385} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{tabbing}
+Ph.D. \hspace*{2 em}\= \textbf{University of Wisconsin--Madison} \hspace*{5em} \= \hspace*{15em} \= 2011 \\
+      \> Nuclear Engineering and Engineering Physics, with a certificate in \\ \> Energy Analysis and Policy \\
+%
+M.S. \hspace*{2 em}\> \textbf{University of Wisconsin--Madison} \> \> 2008 \\
+      \> Nuclear Engineering and Engineering Physics \\
+%
+B.S. \hspace*{2 em}\> \textbf{Pennsylvania State University} \> \> 2006 \\
+      \> Nuclear Engineering
+\end{tabbing}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{University of California, Berkeley}{Jan.\ 2014 - Present}{Assistant Professor of Nuclear Engineering}{Berkeley, CA}
+\item Researching numerical methods for neutral particle transport with an emphasis on supercomputing and advanced architectures; specialization in deterministic, Monte Carlo, and Hybrid methods
+\item Applications in reactor design, shielding, and nuclear security and nonproliferation
+\item \href{http://citris-uc.org/decse-mission/}{Design Emphasis  in Computational Science and Engineering} Affiliated Faculty member
+%\item \href{http://ast.coe.berkeley.edu/}{Applied Science \& Technology} Faculty member
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Bettis Laboratory}{Mar.\ 2012 - Aug.\ 2014}{Senior Engineer in the Shield Design and Development group}{West Mifflin, PA}
+\item Implemented the Forward-Weighted Consistent Adjoint Driven Importance Sampling (FW-CADIS) method for variance reduction in Monte Carlo; accredited method for use in shield design
+\item Developed new Resonance Factor variance reduction method for streaming through materials with space and energy self-shielding
+%\item Built two software tools in support of using FW-CADIS for shield design
+%\item Scientific Software Development Committee: leader in developing internal website for sharing software carpentry tools and resources
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Wisconsin--Madison}{Sept.\ 2006 - Nov.\ 2011}{Research Assistant / Rickover Fellow}{Madison, WI}
+\item Researched “Acceleration Methods for Massively Parallel Deterministic Transport”: added parallelization in the energy domain, an advanced eigenvalue solver, and a new multigrid in energy preconditioner to Denovo, developed at Oak Ridge National Lab
+%\item Investigated effects of uncertainty in gamma sources on Monte Carlo transport
+\item Developed two Monte Carlo source sampling methods for arbitrarily shaped plasma sources; the sources are generated directly from plasma physics data
+%\item Wrote an efficient sampling method for secondary photon sources in the Monte Carlo CAD software library, Direct Accelerated Geometry Monte Carlo (DAGMC)
+\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Knolls Atomic Power Laboratory}{Summer 2009}{Rickover Fellow Practicum}{Schenectady, NY}
+%\item Helped couple the Monte Carlo code MC21 to the deterministic code Jaguar via the interface code UNIK for the purpose of variance reduction
+%\item Added weight window capability to MC21 
+%\item Investigated and recommended methods for creating weight window values 
+%\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Forschungszentrum Karlsruhe (KIT)}{May 2008 - Dec.\ 2008}{Visiting Researcher}{Karlsruhe, Germany}
+%\item Learned about the Rigorous 2 Step method for Monte Carlo geometry conversion while working in the Reactor Safety group
+%\item Helped group incorporate DAGMC library into MCNP workflow
+%\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Oak Ridge National Laboratory}{Summers 2005 \& 2006}{Summer Intern}{Oak Ridge, TN}
+%\item Investigated use of the 3-D deterministic transport code TORT for radiation treatment planning (RTP) when using proper cross sections
+%%\item Demonstrated that RTP is possible with TORT, but for limited cases
+%\item Learned about electron transport and created electron cross sections with CEPXS
+%\end{rSubsection}
+
+%------------------------------------------------
+%
+%\begin{rSubsection}{Penn State Breazeale Reactor}{Aug.\ 2003 - Apr.\ 2006}{Reactor Operator}{University Park, PA}
+%\item NRC licensed Reactor Operator for TRIGA Mark III reactor
+%\item Analyzed core burn-up anomaly; calibrated gamma irradiation facilities
+%\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Selected Publications}
+\input{short-publications}
+\end{rSection}
+
+%%----------------------------------------------------------------------------------------
+%%	SERVICE
+%%----------------------------------------------------------------------------------------
+\vspace*{0.5em}
+\begin{rSection}{Synergistic Activities}
+%------------------------------------------------
+\vspace*{-.5em}
+\textit{Software and Computing}
+\begin{tabbing}
+\hspace*{2 em}\= Nuclear Energy Advisory Committee \hspace*{3em} \= Member since 2016\\
+%
+\>\href{http://bids.berkeley.edu/}{Berkeley Institute for Data Science} \> Senior Fellow\\
+%
+\> \href{http://thehackerwithin.github.io/berkeley/}{The Hacker Within}, UCB and UW  \> Faculty Advisor 2014-present; Founding member 2009\\
+%
+\> \href{http://software-carpentry.org/}{Software Carpentry}  \> Instructor since 2013%\\
+%
+\end{tabbing}
+%
+%------------------------------------------------
+\textit{American Nuclear Society}, National Level
+\begin{tabbing}
+\hspace*{2 em}\= Math and Comp.\ Division \hspace*{6em} \= Chair rotation 2016-present, Exec.\ Comm.\ 2013-present \\
+%
+\> Rad.\ Protection and Shielding Div.\ \> Exec.\ Comm.\ 2015-present\\
+\end{tabbing}
+
+%------------------------------------------------
+Society of Industrial and Applied Mathematics (SIAM) member since 2009 
+\end{rSection}
+
+
+%%----------------------------------------------------------------------------------------
+%%	Conflict of Interest
+%%----------------------------------------------------------------------------------------
+\vspace*{0.5em}
+\begin{rSection}{Conflict of Interest}
+\begin{tabular}{ @{} l @{\hspace{2ex}} l @{\hspace{3ex}} l }
+\textbf{Collaborators}
+& {\hspace{0em}}$\cdot$ Bodmann, B.E.J. \textit{(UFRGS, Brazil)};
+& {\hspace*{0 em}}$\cdot$ Frank, M. \textit{(RWTH, Germany)};\\
+\textbf{and Co-editors}
+& {\hspace{0em}}$\cdot$ Krykci, K. \textit{(AINT, Germany)}; 
+& {\hspace*{0 em}}$\cdot$ Larsen, E.W. \textit{(U. of Michigan)}; \\
+& {\hspace{0em}}$\cdot$ Slaybaugh, R.N. \textit{(UC Berkeley)}; 
+& {\hspace*{0 em}}$\cdot$ Vilhena, M.T. \textit{(UFRGS, Brazil)}; \\
+& {\hspace{0em}}$\cdot$ Yadav, N.K. \textit{(TU/e, Netherlands)};
+& {\hspace{0em}}$\cdot$ Wollmann da Silva, M. \textit{(UFRGS, Brazil)};\\
+\quad \vspace{-5pt}\\
+\textbf{Graduate and}
+& {\hspace{0em}}$\cdot$ Schunert, S. \textit{(NC State)};
+& {\hspace*{0 em}}$\cdot$ Rowland, K. \textit{(UC Berkeley)};\\
+\textbf{Postdoctoral}
+& {\hspace{0em}}$\cdot$ Munk, M. \textit{(UC Berkeley)}; 
+& {\hspace*{0 em}}$\cdot$ Bevins, J. \textit{(UC Berkeley)}; \\
+\textbf{Advisors(ees)}
+& {\hspace{0em}}$\cdot$ Rehak, J. \textit{(UC Berkeley)}; & {\hspace{0em}}$\cdot$ Ortega, M. \textit{(UC Berkeley)}; \\
+& {\hspace{0em}}$\cdot$ Negus, M. \textit{(UC Berkeley)}; & {\hspace{0em}}$\cdot$ Boado, E. \textit{(UC Berkeley)}; \\
+& {\hspace{0em}}$\cdot$ Zweiger, M. \textit{(UC Berkeley)}
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
