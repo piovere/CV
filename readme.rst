@@ -1,5 +1,5 @@
 ________________________________________________________________
-Curriculum Vitae : Rachel N. Slaybaugh
+Curriculum Vitae : J.R. Powers-Luhn
 ________________________________________________________________
 
 This repository contains my curriculum vitae source files and pdfs
@@ -11,5 +11,4 @@ accompanying resume2.cls file.
 Conversely, I've included the pdfs so you can download the built versions directly.
 
 Thanks for your interest.
-Thanks also to Katy Huff, from whose repo I forked, and  toTrey Hunner, who
-provided materials I adapted as well.
+Shamelessly forked from Rachel Slaybaugh's resume. Thanks Rachel.
